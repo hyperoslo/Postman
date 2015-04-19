@@ -28,8 +28,8 @@ class ViewController: UIViewController, PostmanDelegate {
     postman!.delegate = self
   }
 
-  func postmanDidFinished(postman: Postman!) {
-    println("postmanDidFinished!")
+  func postmanDidFinish(postman: Postman!) {
+    println("postmanDidFinish!")
   }
 }
 

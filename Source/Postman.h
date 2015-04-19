@@ -21,6 +21,6 @@
 @protocol PostmanDelegate <NSObject>
 
 @optional
-- (void)postmanDidFinished:(Postman *)postman;
+- (void)postmanDidFinish:(Postman *)postman;
 
 @end
