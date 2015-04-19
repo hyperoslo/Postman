@@ -10,9 +10,11 @@
 		14311C551AE3BBE700FC6F6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311C541AE3BBE700FC6F6E /* AppDelegate.swift */; };
 		14311C571AE3BBE700FC6F6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14311C561AE3BBE700FC6F6E /* ViewController.swift */; };
 		14311C5C1AE3BBE700FC6F6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14311C5B1AE3BBE700FC6F6E /* Images.xcassets */; };
+		14311C771AE3BF9900FC6F6E /* Postman.m in Sources */ = {isa = PBXBuildFile; fileRef = 14311C741AE3BF9900FC6F6E /* Postman.m */; };
+		14311C781AE3BF9900FC6F6E /* Postman.m in Sources */ = {isa = PBXBuildFile; fileRef = 14311C741AE3BF9900FC6F6E /* Postman.m */; };
+		14311C791AE3BF9900FC6F6E /* PostmanAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 14311C761AE3BF9900FC6F6E /* PostmanAttachment.m */; };
+		14311C7A1AE3BF9900FC6F6E /* PostmanAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 14311C761AE3BF9900FC6F6E /* PostmanAttachment.m */; };
 		146D72B31AB782920058798C /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D72B21AB782920058798C /* Tests.m */; };
-		14DB535D1AE3B46B0006C36D /* Postman.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB535A1AE3B46B0006C36D /* Postman.m */; };
-		14DB535E1AE3B46B0006C36D /* PostmanAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB535C1AE3B46B0006C36D /* PostmanAttachment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,11 @@
 		14311C541AE3BBE700FC6F6E /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 2; };
 		14311C561AE3BBE700FC6F6E /* ViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		14311C5B1AE3BBE700FC6F6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14311C721AE3BD4A00FC6F6E /* Pod-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pod-Bridging-Header.h"; sourceTree = "<group>"; };
+		14311C731AE3BF9900FC6F6E /* Postman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Postman.h; sourceTree = "<group>"; };
+		14311C741AE3BF9900FC6F6E /* Postman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Postman.m; sourceTree = "<group>"; };
+		14311C751AE3BF9900FC6F6E /* PostmanAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostmanAttachment.h; sourceTree = "<group>"; };
+		14311C761AE3BF9900FC6F6E /* PostmanAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostmanAttachment.m; sourceTree = "<group>"; };
 		146D72AC1AB782920058798C /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		146D72B11AB782920058798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		146D72B21AB782920058798C /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
@@ -28,10 +35,6 @@
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		14DB53591AE3B46B0006C36D /* Postman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Postman.h; sourceTree = "<group>"; };
-		14DB535A1AE3B46B0006C36D /* Postman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Postman.m; sourceTree = "<group>"; };
-		14DB535B1AE3B46B0006C36D /* PostmanAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostmanAttachment.h; sourceTree = "<group>"; };
-		14DB535C1AE3B46B0006C36D /* PostmanAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostmanAttachment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			children = (
 				14311C541AE3BBE700FC6F6E /* AppDelegate.swift */,
 				14311C561AE3BBE700FC6F6E /* ViewController.swift */,
+				14311C721AE3BD4A00FC6F6E /* Pod-Bridging-Header.h */,
 				14311C5B1AE3BBE700FC6F6E /* Images.xcassets */,
 				14311C521AE3BBE700FC6F6E /* Supporting Files */,
 			);
@@ -122,10 +126,10 @@
 		14C1365B1AB784BC00B7B07A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				14DB53591AE3B46B0006C36D /* Postman.h */,
-				14DB535A1AE3B46B0006C36D /* Postman.m */,
-				14DB535B1AE3B46B0006C36D /* PostmanAttachment.h */,
-				14DB535C1AE3B46B0006C36D /* PostmanAttachment.m */,
+				14311C731AE3BF9900FC6F6E /* Postman.h */,
+				14311C741AE3BF9900FC6F6E /* Postman.m */,
+				14311C751AE3BF9900FC6F6E /* PostmanAttachment.h */,
+				14311C761AE3BF9900FC6F6E /* PostmanAttachment.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -227,6 +231,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14311C781AE3BF9900FC6F6E /* Postman.m in Sources */,
+				14311C7A1AE3BF9900FC6F6E /* PostmanAttachment.m in Sources */,
 				14311C571AE3BBE700FC6F6E /* ViewController.swift in Sources */,
 				14311C551AE3BBE700FC6F6E /* AppDelegate.swift in Sources */,
 			);
@@ -236,8 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14DB535E1AE3B46B0006C36D /* PostmanAttachment.m in Sources */,
-				14DB535D1AE3B46B0006C36D /* Postman.m in Sources */,
+				14311C791AE3BF9900FC6F6E /* PostmanAttachment.m in Sources */,
+				14311C771AE3BF9900FC6F6E /* Postman.m in Sources */,
 				146D72B31AB782920058798C /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +266,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Pod-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -275,6 +282,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Pod-Bridging-Header.h";
 			};
 			name = Release;
 		};
