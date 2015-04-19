@@ -13,6 +13,7 @@
               body:(NSString *)body
         attachment:(PostmanAttachment *)attachment
    usingController:(UIViewController *)controller {
+
     if (![MFMailComposeViewController canSendMail]) {
         [self launchMailAppOnDevice];
         return;
@@ -68,7 +69,7 @@
 }
 
 - (void)launchMailAppOnDevice {
-    NSString *recipients = @"mailto:ola@hyper.com?subject=Hei fra Hyper!";
+    NSString *recipients = @"mailto:ola@hyper.no?subject=Hei fra Hyper!";
     NSString *body = @"&body=Let's configure your email to send the report!";
 
     NSString *email = [NSString stringWithFormat:@"%@%@", recipients, body];
