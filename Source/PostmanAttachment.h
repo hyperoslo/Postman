@@ -2,8 +2,8 @@
 
 @interface PostmanAttachment : NSObject
 
-@property (nonatomic, strong) NSData *data;
-@property (nonatomic, strong) NSString *mimeType;
-@property (nonatomic, strong) NSString *fileName;
+@property (nonatomic) NSData *data;
+@property (nonatomic, copy) NSString *mimeType;
+@property (nonatomic, copy) NSString *fileName;
 
 @end
