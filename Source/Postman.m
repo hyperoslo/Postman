@@ -47,8 +47,8 @@
           didFinishWithResult:(MFMailComposeResult)result
                         error:(NSError *)error {
     [self.parentController dismissViewControllerAnimated:YES completion:^{
-        if ([self.delegate respondsToSelector:@selector(postmanDidFinished:)]) {
-            [self.delegate postmanDidFinished:self];
+        if ([self.delegate respondsToSelector:@selector(postmanDidFinish:)]) {
+            [self.delegate postmanDidFinish:self];
         }
     }];
 }
