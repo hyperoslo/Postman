@@ -14,7 +14,7 @@
         attachment:(PostmanAttachment *)attachment
    usingController:(UIViewController *)controller;
 
-- (void)applySystemStyle;
++ (void)applySystemStyle;
 
 @end
 
