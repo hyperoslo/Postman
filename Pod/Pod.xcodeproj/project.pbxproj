@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		146D72B31AB782920058798C /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 146D72B21AB782920058798C /* Tests.m */; };
+		14DB535D1AE3B46B0006C36D /* Postman.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB535A1AE3B46B0006C36D /* Postman.m */; };
+		14DB535E1AE3B46B0006C36D /* PostmanAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB535C1AE3B46B0006C36D /* PostmanAttachment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +20,10 @@
 		14C136521AB784B200B7B07A /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = CONTRIBUTING.md; path = ../CONTRIBUTING.md; sourceTree = "<group>"; };
 		14C136541AB784B200B7B07A /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = LICENSE.md; path = ../LICENSE.md; sourceTree = "<group>"; };
 		14C136551AB784B200B7B07A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		14C1365C1AB784BC00B7B07A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		14DB53591AE3B46B0006C36D /* Postman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Postman.h; sourceTree = "<group>"; };
+		14DB535A1AE3B46B0006C36D /* Postman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Postman.m; sourceTree = "<group>"; };
+		14DB535B1AE3B46B0006C36D /* PostmanAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostmanAttachment.h; sourceTree = "<group>"; };
+		14DB535C1AE3B46B0006C36D /* PostmanAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostmanAttachment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +86,10 @@
 		14C1365B1AB784BC00B7B07A /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				14C1365C1AB784BC00B7B07A /* .gitkeep */,
+				14DB53591AE3B46B0006C36D /* Postman.h */,
+				14DB535A1AE3B46B0006C36D /* Postman.m */,
+				14DB535B1AE3B46B0006C36D /* PostmanAttachment.h */,
+				14DB535C1AE3B46B0006C36D /* PostmanAttachment.m */,
 			);
 			name = Source;
 			path = ../Source;
@@ -154,6 +162,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DB535E1AE3B46B0006C36D /* PostmanAttachment.m in Sources */,
+				14DB535D1AE3B46B0006C36D /* Postman.m in Sources */,
 				146D72B31AB782920058798C /* Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
