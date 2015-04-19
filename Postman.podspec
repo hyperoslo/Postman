@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "Postman"
-  s.summary          = "A short description of Postman."
+  s.summary          = "«You're nothing but a drifter who found a bag of mail.»"
   s.version          = "0.1.0"
   s.homepage         = "https://github.com/hyperoslo/Postman"
   s.license          = 'MIT'
