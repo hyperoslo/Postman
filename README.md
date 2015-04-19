@@ -1,4 +1,4 @@
-# Postman
+![Postman](https://raw.githubusercontent.com/hyperoslo/Postman/master/Assets/cover.png)
 
 [![CI Status](http://img.shields.io/travis/hyperoslo/Postman.svg?style=flat)](https://travis-ci.org/hyperoslo/Postman)
 [![Version](https://img.shields.io/cocoapods/v/Postman.svg?style=flat)](http://cocoadocs.org/docsets/Postman)
