@@ -8,16 +8,14 @@
 ## Usage
 
 ```swift
-func sendMailAction() {
-  postman = Postman()
-  postman!.sendMailTo(
-    "olivia@louise.com",
-    subject: "Hi",
-    body: "Livy Darling, \n\nI am grateful — grate-fuller than ever before — that you were born, & that your love is mine & our two lives woven & melded together! \n\n- SLC",
-    attachment: nil,
-    usingController: self)
-  postman!.delegate = self
-}
+postman!.sendMailTo(
+  "olivia@louise.com",
+  subject: "Hi",
+  body: "Livy Darling, \n\nI am grateful — grate-fuller than ever before — that you were born, & that your love is mine & our two lives woven & melded together! \n\n- SLC",
+  attachment: nil,
+  usingController: self)
+
+postman!.delegate = self
 
 func postmanDidFinished(postman: Postman!) {
   println("postmanDidFinished!")
